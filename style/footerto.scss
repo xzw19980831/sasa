@@ -1,0 +1,108 @@
+.site{
+    height:245px;
+   
+    .content{
+        height:244px;
+        border-top: 1px solid #ccc; 
+        .link{
+            height: 152px;
+            .right{
+                width: 400px;
+                height: 112px;
+                margin: 20px 0;
+                dl{
+                    width: 359px;
+                    height: 112px;
+                    margin: 0 20px;
+                    border-left:1px solid #ccc;
+                    padding-left: 20px; 
+                    dt{
+                        width: 359px;
+                        height: 18px;
+                        color: #333;
+                        font-size: 16px;
+                    }
+                    dd{
+                        width: 359px;
+                        height: 13px;
+                        margin-top: 10px;
+                        a{
+                            display: block;
+                            width: 48px;
+                            height: 16px;
+                            color: #999;
+                        }
+                    }
+                }
+
+            }
+            .middle{
+                width: 300px;
+                height: 112px;
+                margin: 20px 0;
+                dl{
+                    width: 359px;
+                    height: 112px;
+                    margin: 0 20px;
+                    border-left:1px solid #ccc;
+                    padding-left: 20px; 
+                    dt{
+                        width: 359px;
+                        height: 18px;
+                        color: #333;
+                        font-size: 16px;
+                    }
+                    dd{
+                        width: 359px;
+                        height: 13px;
+                        margin-top: 10px;
+                        a{
+                            display: block;
+                            width: 48px;
+                            height: 16px;
+                            color: #999;
+                        }
+                    }
+                }
+            }
+            .left{
+                width: 400px;
+                height: 112px;
+                margin-top: 20px ;
+                margin-left: 80px;
+                .social{
+                    width: 399px;
+                    height: 36px;
+                    color: #333;
+                    font-size: 14px;
+                    margin-top: 20px;
+                    .account{
+                        width: 34px;
+                        height: 34px;
+                        position: relative;
+                        left:-210px;
+                        top:-5px;
+                        margin-left: 10px;
+                        &:hover{
+                            .code{
+                                display: block;
+                            }
+                        }
+                        .code{
+                            display: none;
+                            position: absolute;
+                            top: 30px;
+                            left: 50%;
+                            -webkit-transform: translateX(-50%);
+                            transform: translateX(-50%);
+                            width: 142px;
+                            height: 148px;
+                            z-index: 1;
+                        }
+                     
+                    }
+                }
+            }
+        }
+    }
+}

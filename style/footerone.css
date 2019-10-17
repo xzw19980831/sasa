@@ -1,0 +1,87 @@
+.footer {
+  height: 566px;
+  position: relative;
+  top: -250px;
+}
+
+.footer .service {
+  height: 157px;
+}
+
+.footer .service .content {
+  height: 156px;
+}
+
+.footer .service .content .middle {
+  width: 400px;
+  height: 69px;
+}
+
+.footer .service .content .middle .about {
+  width: 400px;
+  height: 28px;
+  margin-top: 23px;
+}
+
+.footer .service .content .middle .about a {
+  display: block;
+  width: 102px;
+  height: 28px;
+  color: #444;
+  font-size: 16px;
+  padding: 2px 2px;
+  background: #ddd;
+  margin-left: 10px;
+  text-align: center;
+}
+
+.footer .service .content .middle .time {
+  width: 400px;
+  height: 18px;
+}
+
+.footer .service .content .middle .time .label {
+  display: block;
+  width: 66px;
+  height: 18px;
+  color: #333;
+  font-size: 16px;
+}
+
+.footer .service .content .left {
+  width: 400px;
+  height: 99px;
+  margin-top: 26px;
+}
+
+.footer .service .content .left .label {
+  display: block;
+  width: 64px;
+  height: 99px;
+  font-size: 16px;
+  color: #000;
+}
+
+.footer .service .content .left .desc {
+  width: 229px;
+  height: 99px;
+  margin-left: 16px;
+}
+
+.footer .service .content .left .desc span {
+  display: block;
+  width: 154px;
+  height: 19px;
+  font-size: 14px;
+  color: #999;
+}
+
+.footer .service .content .left .desc .tel {
+  display: block;
+  width: 229px;
+  height: 32px;
+  font-size: 26px;
+  color: #ed008c;
+  margin-top: 10px;
+}
+/*# sourceMappingURL=footerone.css.map */

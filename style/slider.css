@@ -1,0 +1,79 @@
+ul {
+  list-style: none;
+}
+
+.bslider {
+  width: 1519px;
+  height: 384px;
+  border-top: 2px solid #ed008c;
+  position: relative;
+  top: -385px;
+  overflow: hidden;
+}
+
+.bslider .lists li {
+  position: absolute;
+  opacity: 0;
+  -webkit-transition: opacity .3s;
+  transition: opacity .3s;
+}
+
+.bslider .lists li.currents {
+  opacity: 1;
+  z-index: 2;
+}
+
+.btn {
+  position: absolute;
+  top: 50%;
+  width: 80px;
+  height: 40px;
+  background: black;
+  color: white;
+  opacity: .3;
+  z-index: 3;
+  font-size: 35px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.prev {
+  left: -20px;
+}
+
+.next {
+  right: -20px;
+}
+
+.pagination {
+  position: absolute;
+  left: 50%;
+  top: 364px;
+  z-index: 2;
+}
+
+.pagination li {
+  float: left;
+  margin-left: 10px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #fff;
+  cursor: pointer;
+}
+
+.pagination li:hover {
+  opacity: 1;
+  background: #ed008c;
+}
+/*# sourceMappingURL=slider.css.map */

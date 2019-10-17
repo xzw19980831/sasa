@@ -1,0 +1,130 @@
+body {
+  background: #f6f6f6;
+}
+
+.cart {
+  height: 500px;
+  background: #fff;
+  border-radius: 12px;
+  margin-top: 10px;
+}
+
+.cart .right {
+  float: right;
+  color: #ed008c;
+  font-size: 14px;
+}
+
+.cart .right span {
+  color: #ed008c;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.cart .right b {
+  color: #000;
+  font-size: 14px;
+}
+
+.cart .right .s {
+  display: block;
+  float: right;
+  width: 100px;
+  height: 40px;
+  background: #ed008c;
+  border-radius: 25px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 16px;
+  color: #fff;
+  margin-top: -13px;
+  margin-left: 10px;
+}
+
+.cart tbody {
+  width: 1090px;
+  height: 50px;
+}
+
+.cart tbody input {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid #ed008c;
+}
+
+.cart tbody td {
+  width: 137px;
+  height: 106px;
+  text-align: center;
+}
+
+.cart tbody td .name {
+  display: block;
+  width: 300px;
+  height: 30px;
+  margin-left: 120px;
+  margin-top: 10px;
+}
+
+.cart tbody td img {
+  margin-left: 220px;
+}
+
+.cart tbody td:nth-child(2) {
+  width: 550px;
+}
+
+.cart tbody td:nth-child(4) span {
+  display: block;
+  float: left;
+  margin-left: 25px;
+  cursor: pointer;
+}
+
+.cart tbody td:nth-child(4) .num {
+  float: left;
+  cursor: default;
+  display: block;
+  width: 40px;
+  height: 20px;
+  background: #ccc;
+  border-radius: 20px;
+}
+
+.cart tbody td:nth-child(3), .cart tbody td:nth-child(5) {
+  font-size: 16px;
+  color: #ed008c;
+}
+
+.cart tbody td:nth-child(1) {
+  text-align: left;
+}
+
+.cart thead {
+  width: 1090px;
+  height: 18px;
+}
+
+.cart thead input {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid #ed008c;
+}
+
+.cart thead th {
+  width: 127px;
+  height: 50px;
+}
+
+.cart thead th:nth-child(2) {
+  width: 550px;
+}
+
+.cart thead th:nth-child(1) {
+  text-align: left;
+}
+/*# sourceMappingURL=cart.css.map */

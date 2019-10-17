@@ -1,0 +1,78 @@
+.footer{
+    height: 566px;
+   
+    position: relative;
+    top:-250px;
+    .service{
+        height: 157px;
+      
+        .content{
+            height: 156px;
+            .middle{
+                width:400px;
+                height: 69px;
+                .about{
+                    width: 400px;
+                    height: 28px;
+                    margin-top: 23px;
+                    a{
+                        display: block;
+                        width: 102px;
+                        height: 28px;
+                        color: #444;
+                        font-size: 16px;
+                        padding: 2px 2px;
+                        background: #ddd;
+                        margin-left: 10px;
+                        text-align: center;
+                    }
+                }
+                .time{
+                    width: 400px;
+                    height: 18px;
+                    .label{
+                        display: block;
+                        width: 66px;
+                        height: 18px;
+                        color: #333;
+                        font-size: 16px;
+                    }
+                }
+            }
+            
+            .left{
+                width: 400px;
+                height: 99px; 
+                margin-top: 26px;
+               
+                .label{
+                    display: block;
+                    width: 64px;
+                    height: 99px;
+                    font-size: 16px;
+                    color: #000;
+                }
+                .desc{
+                    width: 229px;
+                    height: 99px;
+                    margin-left: 16px;
+                    span{
+                        display: block;
+                        width: 154px;
+                        height: 19px;
+                        font-size: 14px;
+                        color: #999;
+                    }
+                    .tel{
+                        display: block;
+                        width: 229px;
+                        height: 32px;
+                        font-size: 26px;
+                        color: #ed008c;
+                        margin-top: 10px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,166 @@
+.part1 {
+  position: relative;
+  top: -380px;
+  height: 434px;
+}
+
+.part1 .pad {
+  width: 1200px;
+  height: 400px;
+}
+
+.part1 ul {
+  width: 548px;
+  height: 215px;
+}
+
+.part1 ul li {
+  width: 129px;
+  height: 198px;
+  border-bottom: 1px dashed #ccc;
+  margin-left: 85px;
+  padding-right: 20px;
+}
+
+.part1 ul li a {
+  color: #000;
+  display: block;
+}
+
+.part1 ul li a .right {
+  width: 72px;
+  height: 24px;
+  background: #ed008c;
+  font-size: 13px;
+  color: #fff;
+  text-align: center;
+  border-radius: 16px;
+  line-height: 24px;
+}
+
+.part1 ul li a .img {
+  width: 228px;
+  height: 228px;
+  border: 1px solid #ccc;
+}
+
+.part1 ul li a .progress {
+  width: 226px;
+  height: 28px;
+  border: 1px solid #ccc;
+  border-bottom: 0;
+  border-top: 0;
+}
+
+.part1 ul li a .progress .name {
+  width: 55px;
+  height: 28px;
+  margin-left: 10px;
+  margin-top: 5px;
+  color: #ed008c;
+}
+
+.part1 ul li a .progress .left {
+  width: 137px;
+  height: 9px;
+  background: #eee;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.part1 ul li a .progress .left .s {
+  border-radius: 10px;
+  display: block;
+  width: 44%;
+  height: 8px;
+  background: #ed008c;
+}
+
+.part1 ul li a .desc {
+  width: 226px;
+  height: 14px;
+  border: 1px solid #ccc;
+  border-bottom: 0;
+  border-top: 0;
+  text-align: center;
+}
+
+.part1 ul li .price {
+  width: 226px;
+  height: 34px;
+  margin-top: -10px;
+  text-align: left;
+  font-size: 24px;
+  color: #ed008c;
+  border: 1px solid #ccc;
+  border-top: 0;
+}
+
+.part1 ul li .price .line {
+  color: #aaa;
+  font-size: 12px;
+  text-decoration: line-through;
+}
+
+.part1 .title {
+  height: 90px;
+  line-height: 90px;
+}
+
+.part1 .title .more {
+  float: right;
+  margin-top: -60px;
+}
+
+.part1 .title .time-item {
+  padding: 30px 120px;
+}
+
+.part1 .title .time-item span {
+  background: #000;
+  color: #fff;
+  line-height: 29px;
+  text-align: center;
+  font-size: 16px;
+  font-family: Arial;
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  float: left;
+  margin-left: -10px;
+}
+
+.part1 .title .time-item span.no {
+  border: 0;
+  background: 0;
+  color: #000;
+}
+
+.part1 .title #day_show {
+  float: left;
+  line-height: 49px;
+  color: #c71c60;
+  font-size: 32px;
+  margin: 0 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.part1 .title .item-title .unit {
+  background: none;
+  line-height: 49px;
+  font-size: 24px;
+  padding: 0 10px;
+  float: left;
+}
+
+.part1 .title h2 {
+  font-weight: 100;
+  width: 72px;
+  height: 20px;
+  font-size: 14px;
+  float: left;
+  margin-left: -20px;
+}
+/*# sourceMappingURL=part-one.css.map */

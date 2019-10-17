@@ -1,0 +1,55 @@
+.run {
+  width: 50px;
+  height: 250px;
+  display: none;
+}
+
+.run li {
+  text-align: center;
+  line-height: 50px;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #ccc;
+  border-bottom: 0;
+  position: fixed;
+  cursor: pointer;
+}
+
+.run li:hover {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background: #ed008c;
+}
+
+.run li:nth-child(1) {
+  right: 100px;
+  bottom: 300px;
+}
+
+.run li:nth-child(2) {
+  right: 100px;
+  bottom: 350px;
+}
+
+.run li:nth-child(3) {
+  right: 100px;
+  bottom: 400px;
+}
+
+.run li:nth-child(4) {
+  right: 100px;
+  bottom: 450px;
+}
+
+.run li:nth-child(5) {
+  right: 100px;
+  bottom: 350px;
+  border-bottom: 1px solid #ccc;
+}
+
+#go-2-top {
+  right: 100px;
+  bottom: 250px;
+}
+/*# sourceMappingURL=gotop.css.map */

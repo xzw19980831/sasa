@@ -1,0 +1,340 @@
+.part2{
+    height:700px;
+   
+    position: relative;
+    top:-360px;
+    .title{
+        height: 90px;
+      
+       
+     
+        .mei{
+               font-weight: 100;
+               line-height: 90px;
+        }
+
+        .pad3{
+            width: 548px;
+            height: 300px;
+            background: #fff;
+            position: absolute;
+            left: 779px;
+            // display: none;
+            opacity: 0;
+           
+            z-index: 2;
+            .lookmore{
+                width:100px;
+                height: 30px;
+                border: 1px solid #000;
+                border-radius: 20px;
+                text-align: center;
+                line-height: 30px;
+                margin-top: 10px;
+                margin-right: 10px;
+                font-size: 14px;
+                a{
+
+                    color: #000;
+                }
+
+            }
+           
+            ul{
+                width: 548px;
+                height: 215px;
+              
+                li{
+                    width: 129px;
+                    height: 198px;
+                    border-bottom: 1px dashed #ccc;
+                    margin-left: 5px;
+                    a{
+                        color:#000;
+                    }
+                    .price{
+                        text-align: center;
+                        font-size: 14px;
+                        color: #ed008c;
+                        
+                        .line{
+                            color: #aaa;
+                            font-size: 12px;
+                            text-decoration: line-through;
+                        }
+                    }
+
+                }
+            }
+        }
+
+        .pad2{
+            width: 548px;
+            height: 300px;
+            background: #fff;
+            position: absolute;
+           
+                        left: 179px;
+            // display: none;
+            opacity: 0;
+           
+            z-index: 2;
+            .lookmore{
+                width:100px;
+                height: 30px;
+                border: 1px solid #000;
+                border-radius: 20px;
+                text-align: center;
+                line-height: 30px;
+                margin-top: 10px;
+                margin-right: 10px;
+                font-size: 14px;
+                a{
+
+                    color: #000;
+                }
+
+            }
+           
+            ul{
+                width: 548px;
+                height: 215px;
+              
+                li{
+                    width: 129px;
+                    height: 198px;
+                    border-bottom: 1px dashed #ccc;
+                    margin-left: 5px;
+                    a{
+                        color:#000;
+                    }
+                    .price{
+                        text-align: center;
+                        font-size: 14px;
+                        color: #ed008c;
+                        
+                        .line{
+                            color: #aaa;
+                            font-size: 12px;
+                            text-decoration: line-through;
+                        }
+                    }
+
+                }
+            }
+        }
+
+        .pad1{
+            width: 548px;
+            height: 300px;
+            background: #fff;
+            position: absolute;
+            left: 779px;
+            // display: none;
+            opacity: 0;
+           
+            z-index: 2;
+            .lookmore{
+                width:100px;
+                height: 30px;
+                border: 1px solid #000;
+                border-radius: 20px;
+                text-align: center;
+                line-height: 30px;
+                margin-top: 10px;
+                margin-right: 10px;
+                font-size: 14px;
+                a{
+
+                    color: #000;
+                }
+
+            }
+           
+            ul{
+                width: 548px;
+                height: 215px;
+              
+                li{
+                    width: 129px;
+                    height: 198px;
+                    border-bottom: 1px dashed #ccc;
+                    margin-left: 5px;
+                    a{
+                        color:#000;
+                    }
+                    .price{
+                        text-align: center;
+                        font-size: 14px;
+                        color: #ed008c;
+                        
+                        .line{
+                            color: #aaa;
+                            font-size: 12px;
+                            text-decoration: line-through;
+                        }
+                    }
+
+                }
+            }
+        }
+
+        .pad{
+            width: 548px;
+            height: 300px;
+            background: #fff;
+            position: absolute;
+            left: 179px;
+            // display: none;
+            opacity: 0;
+           
+            z-index: 2;
+
+            .lookmore{
+                width:100px;
+                height: 30px;
+                border: 1px solid #000;
+                border-radius: 20px;
+                text-align: center;
+                line-height: 30px;
+                margin-top: 10px;
+                margin-right: 10px;
+                font-size: 14px;
+                a{
+
+                    color: #000;
+                }
+
+            }
+           
+            ul{
+                width: 548px;
+                height: 215px;
+              
+                li{
+                    width: 129px;
+                    height: 198px;
+                    border-bottom: 1px dashed #ccc;
+                    margin-left: 5px;
+                    a{
+                        color:#000;
+                    }
+                    .price{
+                        text-align: center;
+                        font-size: 14px;
+                        color: #ed008c;
+                        
+                        .line{
+                            color: #aaa;
+                            font-size: 12px;
+                            text-decoration: line-through;
+                        }
+                    }
+
+                }
+            }
+        }
+        .box{
+            width: 588px;
+            height: 340px;
+            margin-right: 5px;
+           
+        
+          
+           
+            
+            &:hover{
+                background: #ed008c;
+                .pad{
+                    
+                    position: absolute;
+                  transform: translate(0,-40px);
+                  transition:  .5s ease 0s,;
+                    top:150px;
+                    left: 179px;
+                    z-index: 2;
+                    opacity: 1;
+                }
+            }
+       
+       
+            .ban-img{
+                padding-right: 25px;
+              
+                }
+            } 
+            .box1{
+                width: 588px;
+                height: 340px;
+                margin-left: 12px;
+            
+              
+               
+                
+                &:hover{
+                    background: #ed008c;
+                    .pad1{
+                        
+                        position: absolute;
+                      transform: translate(0,-40px);
+                      transition:  .5s ease 0s,;
+                        top:150px;
+                        left: 779px;
+                        z-index: 2;
+                        opacity: 1;
+                    }
+                }
+            }
+
+            .box2{
+                width: 588px;
+                height: 340px;
+               margin-top: 20px;
+               margin-right: 20px;
+            
+              
+               
+                
+                &:hover{
+                    background: #ed008c;
+                    .pad2{
+                        
+                        position: absolute;
+                      transform: translate(0,-40px);
+                      transition:  .5s ease 0s,;
+                        top:510px;
+                        left: 179px;
+                        z-index: 2;
+                        opacity: 1;
+                    }
+                }
+            }
+           
+
+            .box3{
+                width: 588px;
+                height: 340px;
+                margin-top: 20px;
+            
+              
+               
+                
+                &:hover{
+                    background: #ed008c;
+                    .pad3{
+                        
+                        position: absolute;
+                      transform: translate(0,-40px);
+                      transition:  .5s ease 0s,;
+                        top:510px;
+                        left: 779px;
+                        z-index: 2;
+                        opacity: 1;
+                    }
+                }
+            }
+           
+           
+        
+        }
+    }

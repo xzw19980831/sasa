@@ -1,0 +1,121 @@
+.site {
+  height: 245px;
+}
+
+.site .content {
+  height: 244px;
+  border-top: 1px solid #ccc;
+}
+
+.site .content .link {
+  height: 152px;
+}
+
+.site .content .link .right {
+  width: 400px;
+  height: 112px;
+  margin: 20px 0;
+}
+
+.site .content .link .right dl {
+  width: 359px;
+  height: 112px;
+  margin: 0 20px;
+  border-left: 1px solid #ccc;
+  padding-left: 20px;
+}
+
+.site .content .link .right dl dt {
+  width: 359px;
+  height: 18px;
+  color: #333;
+  font-size: 16px;
+}
+
+.site .content .link .right dl dd {
+  width: 359px;
+  height: 13px;
+  margin-top: 10px;
+}
+
+.site .content .link .right dl dd a {
+  display: block;
+  width: 48px;
+  height: 16px;
+  color: #999;
+}
+
+.site .content .link .middle {
+  width: 300px;
+  height: 112px;
+  margin: 20px 0;
+}
+
+.site .content .link .middle dl {
+  width: 359px;
+  height: 112px;
+  margin: 0 20px;
+  border-left: 1px solid #ccc;
+  padding-left: 20px;
+}
+
+.site .content .link .middle dl dt {
+  width: 359px;
+  height: 18px;
+  color: #333;
+  font-size: 16px;
+}
+
+.site .content .link .middle dl dd {
+  width: 359px;
+  height: 13px;
+  margin-top: 10px;
+}
+
+.site .content .link .middle dl dd a {
+  display: block;
+  width: 48px;
+  height: 16px;
+  color: #999;
+}
+
+.site .content .link .left {
+  width: 400px;
+  height: 112px;
+  margin-top: 20px;
+  margin-left: 80px;
+}
+
+.site .content .link .left .social {
+  width: 399px;
+  height: 36px;
+  color: #333;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.site .content .link .left .social .account {
+  width: 34px;
+  height: 34px;
+  position: relative;
+  left: -210px;
+  top: -5px;
+  margin-left: 10px;
+}
+
+.site .content .link .left .social .account:hover .code {
+  display: block;
+}
+
+.site .content .link .left .social .account .code {
+  display: none;
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: 142px;
+  height: 148px;
+  z-index: 1;
+}
+/*# sourceMappingURL=footerto.css.map */

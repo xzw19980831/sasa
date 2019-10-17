@@ -1,0 +1,218 @@
+.main {
+  height: 2603px;
+}
+
+.main .app {
+  height: 2551px;
+}
+
+.main .app .pdp {
+  height: 2551px;
+}
+
+.main .app .pdp .content {
+  height: 486px;
+}
+
+.main .app .pdp .content .detail_pc {
+  width: 768px;
+  height: 486px;
+  position: relative;
+  margin-top: 20px;
+}
+
+.main .app .pdp .content .detail_pc .add_cart {
+  height: 60px;
+  margin-top: 120px;
+}
+
+.main .app .pdp .content .detail_pc .add_cart .add {
+  width: 266px;
+  height: 60px;
+  border-radius: 30px;
+  font-size: 20px;
+  line-height: 60px;
+  text-align: center;
+  color: #fff;
+  background-image: linear-gradient(269deg, #ff668b, #ed008c);
+  -webkit-box-shadow: 0 2px 3px 0 rgba(236, 62, 124, 0.3);
+          box-shadow: 0 2px 3px 0 rgba(236, 62, 124, 0.3);
+  margin-right: 30px;
+}
+
+.main .app .pdp .content .detail_pc .add_cart .add .car {
+  color: #fff;
+}
+
+.main .app .pdp .content .detail_pc .love {
+  width: 57px;
+  height: 24px;
+  margin-top: 20px;
+}
+
+.main .app .pdp .content .detail_pc .love span {
+  width: 32px;
+  height: 24px;
+  display: block;
+  float: left;
+  font-size: 16px;
+}
+
+.main .app .pdp .content .detail_pc .love img {
+  margin: 0 5px 0 0;
+  float: left;
+}
+
+.main .app .pdp .content .feature {
+  height: 28px;
+  margin: 0 0 16px;
+}
+
+.main .app .pdp .content .feature .item_name {
+  width: 42px;
+  height: 28px;
+  color: #999;
+  margin: 0 30px 0 0;
+  padding: 0 0 0 16px;
+  font-size: 13px;
+}
+
+.main .app .pdp .content .feature .item_info {
+  width: 696px;
+  height: 28px;
+}
+
+.main .app .pdp .content .price {
+  height: 100px;
+  background: #f6f6f6;
+  margin: 0 0 16px;
+  padding: 16px 0;
+}
+
+.main .app .pdp .content .price .item_name {
+  width: 42px;
+  height: 16px;
+  color: #999;
+  font-size: 13px;
+  margin: 0 30px  0 0;
+  padding: 0 0 0 16px;
+}
+
+.main .app .pdp .content .price .item_info {
+  width: 696px;
+  height: 68px;
+  line-height: 16px;
+}
+
+.main .app .pdp .content .price .item_info .discount {
+  height: 19px;
+  margin: 17px 0 0;
+  padding-left: 90px;
+}
+
+.main .app .pdp .content .price .item_info .discount img {
+  margin: 0 10px 0 0;
+  float: left;
+}
+
+.main .app .pdp .content .price .item_info .discount span {
+  display: block;
+  width: 130px;
+  height: 16px;
+  font-size: 14px;
+  float: left;
+}
+
+.main .app .pdp .content .price .item_info .discount .colorPink {
+  display: block;
+  width: 42px;
+  height: 16px;
+  color: #ed008c;
+}
+
+.main .app .pdp .content .price .item_info .vip_price {
+  height: 32px;
+}
+
+.main .app .pdp .content .price .item_info .vip_price .sasa_price {
+  display: block;
+  width: 85px;
+  height: 32px;
+  color: #ed008c;
+  font-size: 28px;
+  margin: 0 16px 0 0;
+}
+
+.main .app .pdp .content .price .item_info .vip_price .market_price {
+  display: block;
+  width: 86px;
+  height: 17px;
+  color: #999;
+  text-decoration: line-through;
+}
+
+.main .app .pdp .content .name {
+  height: 24px;
+  color: #333;
+  font-size: 18px;
+  margin: 0 0 10px;
+}
+
+.main .app .pdp .content .sub_name {
+  height: 20px;
+  color: #333;
+  font-size: 13px;
+  margin: 0 0 20px;
+}
+
+.main .app .pdp .content .country {
+  height: 22px;
+  margin: 0 0 13px;
+}
+
+.main .app .pdp .content .country .country_name {
+  width: 52px;
+  height: 21px;
+  display: block;
+  overflow: hidden;
+  color: #ccc;
+}
+
+.main .app .pdp .content .country .brand_name {
+  color: #ccc;
+  width: 98px;
+  height: 21px;
+  display: inline-block;
+  overflow: hidden;
+  margin-left: 30px;
+}
+
+.main .app .pdp .content .country .brand_name::after {
+  content: "";
+  width: 2px;
+  height: 16px;
+  position: relative;
+  background: #eee;
+  top: 3px;
+  left: -20px;
+}
+
+.main .app .pdp .magnifier {
+  height: 486px;
+}
+
+.main .app .bread {
+  height: 16px;
+  font-size: 13px;
+  line-height: 16px;
+  margin-bottom: 18px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  position: absolute;
+  left: 180px;
+}
+
+.main .app .bread span {
+  margin-bottom: 20px;
+}
+/*# sourceMappingURL=detail.css.map */

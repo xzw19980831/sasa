@@ -1,0 +1,67 @@
+.turn{
+    width:100px;
+    height: 250px;  
+    display: none;
+   
+}
+.turn li{
+    text-align: center;
+    line-height: 50px;
+      width: 100px;
+    height: 50px;
+     border: 1px solid #ccc;
+   
+    position: fixed; 
+     cursor: pointer;
+    
+} 
+li:active{
+         border: 1px solid red;
+     }
+     
+.turn li:nth-child(1){
+  
+  left: 100px;
+  bottom: 500px;
+}
+
+.turn li:nth-child(2){
+  
+    left: 100px;
+    bottom: 450px;
+  
+   
+
+} .turn li:nth-child(3){
+   
+    left: 100px;
+    bottom: 400px;
+  
+   
+
+}
+.turn li:nth-child(4){
+   
+    left: 100px;
+    bottom: 350px;
+ 
+ 
+
+}
+.turn li:nth-child(5){
+  
+    left: 100px;
+    bottom:300px;
+  
+ 
+
+}
+.turn li:nth-child(6){
+   
+    left: 100px;
+    bottom: 250px;
+    border-bottom: 1px solid #ccc;
+  
+  
+
+}

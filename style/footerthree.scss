@@ -1,0 +1,43 @@
+.down{
+    height: 154px;
+   
+    .promise{
+        height:33px;
+        width: 700px;
+        background: red;
+        img{
+            width: 30px;
+            height: 30px;
+        }
+    }
+    .copy{
+        height: 35px;
+        margin: 10px 0 24px;
+        padding: 15px 0 0 ;
+        .con{
+            width: 715px;
+            height: 13px;
+            color: #999;
+           
+        }
+        .cons{
+            width: 429px;
+            height: 20px;
+            .emblem{
+                margin: 0 5px 0 40px;
+            }
+             a{
+                display: block;
+                width: 177px;
+                height: 16px;
+                color: #999;
+               
+            }
+            a{
+                display: block;
+                width: 48px;
+                height: 16px;
+            }
+        }
+    }
+}

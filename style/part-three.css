@@ -1,0 +1,79 @@
+.part3 {
+  height: 492px;
+  position: relative;
+  top: -280px;
+}
+
+.part3 .sale {
+  height: 402px;
+  width: 1200px;
+}
+
+.part3 .sale .img {
+  float: left;
+  height: 128px;
+}
+
+.part3 .sale .pad {
+  width: 570px;
+  padding-left: 30px;
+  height: 400px;
+  position: absolute;
+  top: 90px;
+  left: 750px;
+  border-right: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+}
+
+.part3 .sale .pad ul {
+  width: 548px;
+  height: 215px;
+}
+
+.part3 .sale .pad ul li {
+  width: 129px;
+  height: 198px;
+  border-bottom: 1px dashed #ccc;
+  margin-left: 5px;
+}
+
+.part3 .sale .pad ul li a {
+  color: #000;
+}
+
+.part3 .sale .pad ul li .price {
+  text-align: center;
+  font-size: 14px;
+  color: #ed008c;
+}
+
+.part3 .sale .pad ul li .price .line {
+  color: #aaa;
+  font-size: 12px;
+  text-decoration: line-through;
+}
+
+.part3 .title {
+  height: 90px;
+  line-height: 90px;
+}
+
+.part3 .title .name {
+  width: 96px;
+  height: 24px;
+  margin-top: 100px;
+  font-size: 24px;
+}
+
+.part3 .title .more {
+  width: 83px;
+  height: 30px;
+  margin-left: 1120px;
+  margin-top: -20px;
+}
+
+.part3 .title .more a {
+  color: #333;
+  font-size: 14px;
+}
+/*# sourceMappingURL=part-three.css.map */

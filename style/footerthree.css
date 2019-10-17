@@ -1,0 +1,49 @@
+.down {
+  height: 154px;
+}
+
+.down .promise {
+  height: 33px;
+  width: 700px;
+  background: red;
+}
+
+.down .promise img {
+  width: 30px;
+  height: 30px;
+}
+
+.down .copy {
+  height: 35px;
+  margin: 10px 0 24px;
+  padding: 15px 0 0;
+}
+
+.down .copy .con {
+  width: 715px;
+  height: 13px;
+  color: #999;
+}
+
+.down .copy .cons {
+  width: 429px;
+  height: 20px;
+}
+
+.down .copy .cons .emblem {
+  margin: 0 5px 0 40px;
+}
+
+.down .copy .cons a {
+  display: block;
+  width: 177px;
+  height: 16px;
+  color: #999;
+}
+
+.down .copy .cons a {
+  display: block;
+  width: 48px;
+  height: 16px;
+}
+/*# sourceMappingURL=footerthree.css.map */

@@ -1,0 +1,324 @@
+.part2 {
+  height: 700px;
+  position: relative;
+  top: -360px;
+}
+
+.part2 .title {
+  height: 90px;
+}
+
+.part2 .title .mei {
+  font-weight: 100;
+  line-height: 90px;
+}
+
+.part2 .title .pad3 {
+  width: 548px;
+  height: 300px;
+  background: #fff;
+  position: absolute;
+  left: 779px;
+  opacity: 0;
+  z-index: 2;
+}
+
+.part2 .title .pad3 .lookmore {
+  width: 100px;
+  height: 30px;
+  border: 1px solid #000;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 30px;
+  margin-top: 10px;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.part2 .title .pad3 .lookmore a {
+  color: #000;
+}
+
+.part2 .title .pad3 ul {
+  width: 548px;
+  height: 215px;
+}
+
+.part2 .title .pad3 ul li {
+  width: 129px;
+  height: 198px;
+  border-bottom: 1px dashed #ccc;
+  margin-left: 5px;
+}
+
+.part2 .title .pad3 ul li a {
+  color: #000;
+}
+
+.part2 .title .pad3 ul li .price {
+  text-align: center;
+  font-size: 14px;
+  color: #ed008c;
+}
+
+.part2 .title .pad3 ul li .price .line {
+  color: #aaa;
+  font-size: 12px;
+  text-decoration: line-through;
+}
+
+.part2 .title .pad2 {
+  width: 548px;
+  height: 300px;
+  background: #fff;
+  position: absolute;
+  left: 179px;
+  opacity: 0;
+  z-index: 2;
+}
+
+.part2 .title .pad2 .lookmore {
+  width: 100px;
+  height: 30px;
+  border: 1px solid #000;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 30px;
+  margin-top: 10px;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.part2 .title .pad2 .lookmore a {
+  color: #000;
+}
+
+.part2 .title .pad2 ul {
+  width: 548px;
+  height: 215px;
+}
+
+.part2 .title .pad2 ul li {
+  width: 129px;
+  height: 198px;
+  border-bottom: 1px dashed #ccc;
+  margin-left: 5px;
+}
+
+.part2 .title .pad2 ul li a {
+  color: #000;
+}
+
+.part2 .title .pad2 ul li .price {
+  text-align: center;
+  font-size: 14px;
+  color: #ed008c;
+}
+
+.part2 .title .pad2 ul li .price .line {
+  color: #aaa;
+  font-size: 12px;
+  text-decoration: line-through;
+}
+
+.part2 .title .pad1 {
+  width: 548px;
+  height: 300px;
+  background: #fff;
+  position: absolute;
+  left: 779px;
+  opacity: 0;
+  z-index: 2;
+}
+
+.part2 .title .pad1 .lookmore {
+  width: 100px;
+  height: 30px;
+  border: 1px solid #000;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 30px;
+  margin-top: 10px;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.part2 .title .pad1 .lookmore a {
+  color: #000;
+}
+
+.part2 .title .pad1 ul {
+  width: 548px;
+  height: 215px;
+}
+
+.part2 .title .pad1 ul li {
+  width: 129px;
+  height: 198px;
+  border-bottom: 1px dashed #ccc;
+  margin-left: 5px;
+}
+
+.part2 .title .pad1 ul li a {
+  color: #000;
+}
+
+.part2 .title .pad1 ul li .price {
+  text-align: center;
+  font-size: 14px;
+  color: #ed008c;
+}
+
+.part2 .title .pad1 ul li .price .line {
+  color: #aaa;
+  font-size: 12px;
+  text-decoration: line-through;
+}
+
+.part2 .title .pad {
+  width: 548px;
+  height: 300px;
+  background: #fff;
+  position: absolute;
+  left: 179px;
+  opacity: 0;
+  z-index: 2;
+}
+
+.part2 .title .pad .lookmore {
+  width: 100px;
+  height: 30px;
+  border: 1px solid #000;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 30px;
+  margin-top: 10px;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.part2 .title .pad .lookmore a {
+  color: #000;
+}
+
+.part2 .title .pad ul {
+  width: 548px;
+  height: 215px;
+}
+
+.part2 .title .pad ul li {
+  width: 129px;
+  height: 198px;
+  border-bottom: 1px dashed #ccc;
+  margin-left: 5px;
+}
+
+.part2 .title .pad ul li a {
+  color: #000;
+}
+
+.part2 .title .pad ul li .price {
+  text-align: center;
+  font-size: 14px;
+  color: #ed008c;
+}
+
+.part2 .title .pad ul li .price .line {
+  color: #aaa;
+  font-size: 12px;
+  text-decoration: line-through;
+}
+
+.part2 .title .box {
+  width: 588px;
+  height: 340px;
+  margin-right: 5px;
+}
+
+.part2 .title .box:hover {
+  background: #ed008c;
+}
+
+.part2 .title .box:hover .pad {
+  position: absolute;
+  -webkit-transform: translate(0, -40px);
+          transform: translate(0, -40px);
+  -webkit-transition: 0.5s ease 0s;
+  transition: 0.5s ease 0s;
+  top: 150px;
+  left: 179px;
+  z-index: 2;
+  opacity: 1;
+}
+
+.part2 .title .box .ban-img {
+  padding-right: 25px;
+}
+
+.part2 .title .box1 {
+  width: 588px;
+  height: 340px;
+  margin-left: 12px;
+}
+
+.part2 .title .box1:hover {
+  background: #ed008c;
+}
+
+.part2 .title .box1:hover .pad1 {
+  position: absolute;
+  -webkit-transform: translate(0, -40px);
+          transform: translate(0, -40px);
+  -webkit-transition: 0.5s ease 0s;
+  transition: 0.5s ease 0s;
+  top: 150px;
+  left: 779px;
+  z-index: 2;
+  opacity: 1;
+}
+
+.part2 .title .box2 {
+  width: 588px;
+  height: 340px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.part2 .title .box2:hover {
+  background: #ed008c;
+}
+
+.part2 .title .box2:hover .pad2 {
+  position: absolute;
+  -webkit-transform: translate(0, -40px);
+          transform: translate(0, -40px);
+  -webkit-transition: 0.5s ease 0s;
+  transition: 0.5s ease 0s;
+  top: 510px;
+  left: 179px;
+  z-index: 2;
+  opacity: 1;
+}
+
+.part2 .title .box3 {
+  width: 588px;
+  height: 340px;
+  margin-top: 20px;
+}
+
+.part2 .title .box3:hover {
+  background: #ed008c;
+}
+
+.part2 .title .box3:hover .pad3 {
+  position: absolute;
+  -webkit-transform: translate(0, -40px);
+          transform: translate(0, -40px);
+  -webkit-transition: 0.5s ease 0s;
+  transition: 0.5s ease 0s;
+  top: 510px;
+  left: 779px;
+  z-index: 2;
+  opacity: 1;
+}
+/*# sourceMappingURL=part-two.css.map */

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style-register/register.css">
+    <link rel="stylesheet" href="../style/base.css">
+   
+</head>
+<body>
+    <div class="layout">
+        <div class="logo">
+           
+                <div class="w">
+                    <div class="brand">
+                        <h1 class="l"><a href="../index.html"><img src="../images/logo.png"></a></h1>
+                        <div class="solgan l"><a href="#" class="desc">香港莎莎 官方自营 正货海淘 </a>
+                            <ul class="highlight">
+                                <li class="l"><a href="#" class="light">官方自营</a></li>
+                                <li class="l"><a href="#" class="light">正货担保</a></li>
+                                <li class="l"><a href="#" class="light">30天售后服务</a></li>
+                            </ul>
+        
+        
+                       
+                    </div>
+        </div>
+        <div class="main">
+            <div class="w">
+                <div class="con">
+                    <h3 class="title">注册</h3>
+                    <div class="common">
+                        <div class="box">
+                            <div class="form">
+                                <div class="pwd pwd1">
+                                    <input type="text" name="username" maxlength="200" placeholder="请输入手机／邮箱" class="mobile" id="tel" autocomplete="off">
+                                    <i class="icon"></i>
+                                    <span class="error-tel hidden"><img class="l" src="../images/warn.png" width="16px" height="16px">请输入正确的手机号</span>
+                                </div>
+                                <div class="pwd pwd2">
+                                        <input type="text" name="password" maxlength="200" placeholder="请输入密码" class="mobile" id="password" autocomplete="off">
+                                        <span class="error-password hidden"><img class="l" src="../images/warn.png" width="16px" height="16px">密码为6-8位的字母或数字</span>
+                                    </div>
+                            </div>
+                            <!-- <div class="btn">
+                                <div id="captcha">
+                                    <div class="move">
+                                        <div class="yidong">
+                                            <div class="panel">
+                                                <div class="panel-placehodler"></div>
+                                            </div>
+                                        </div>
+                                        <input type="hidden" value class="yidong-input">
+                                    </div>
+                                </div>
+
+
+                            </div> -->
+                            <div class="radiobox">
+                                <div class="radiowrap">
+                                    <span class="radio"></span>
+                                    您已阅读及接受
+                                    <a href="#">使用条款</a> 及
+                                    <a href="#">隐私政策</a>
+                                </div>
+                                <div class="radiowrap1">
+                                        <span class="radio"></span>
+                                        您同意接收莎莎发送的与产品或服务有关的推广宣传资料
+        
+                                      
+                                    </div>
+                            </div>
+                            <div class="submitbtn">
+                                <div class="submit">注册</div>
+                               
+                            </div>
+                            <a href="./login.html" class="toLogin r">已有账号？
+                                <span class="colorPink">登录</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../lib/jquery-3.4.1.js"></script>
+    <script src="../js/register.js"></script>
+    <script>
+    $('.radio').on('click', function () {
+$(this).toggleClass('radio checked')
+})
+// var against = document.querySelector('.submit');
+// var radio = document.querySelector('.radio');
+// agains.onclick = function(){
+//     if(radio.className!=="checked"){
+//         alert("请阅读评勾选使用条款，否则无法进行操作！")
+
+//     }
+// }
+
+ $(document).ready(function(e){
+            /*点击删除 清空输入框的内容*/
+            $('.icon').click(function(){
+                $('.pwd input').val('');
+            });
+        });
+        var icon = document.querySelector(".icon")
+        icon.onclick = function(){
+            icon.style.display = "0";
+        }
+        document.querySelector('input[name="username"]').onclick = function () {
+         icon.style.opacity="1"
+
+        }
+        
+
+
+
+         var telInput = document.querySelector('#tel');
+
+telInput.onblur = function () {
+    //元素失去焦点时，触发的事件
+    console.log('===============')
+    //  1. 取得电话的value
+    var tel = this.value;
+    //  2. 跟正则进行匹配
+    var telReg = /^1[3-9]\d{9}$/
+
+    //  3. 根据匹配结果，显示信息
+    if(telReg.test(tel)) {
+        //匹配成功，不显示错误
+        // document.querySelector('.error-tel').style.display = 'none'
+        document.querySelector('.error-tel').className = 'error-tel hidden'
+
+    } else {
+        document.querySelector('.error-tel').className = 'error-tel'
+    }
+}
+
+ var passwordInput = document.querySelector('#password');
+
+passwordInput.onblur = function () {
+    //元素失去焦点时，触发的事件
+    console.log('===============')
+    //  1. 取得电话的value
+    var password = this.value;
+    //  2. 跟正则进行匹配
+    var passwordReg = /^[a-z0-9_-]{6,18}$/
+
+    //  3. 根据匹配结果，显示信息
+    if(passwordReg.test(password)) {
+        //匹配成功，不显示错误
+        // document.querySelector('.error-tel').style.display = 'none'
+        document.querySelector('.error-password').className = 'error-password hidden'
+
+    } else {
+        document.querySelector('.error-password').className = 'error-password'
+    }
+}
+
+
+
+         
+
+        
+          
+        
+    </script>
+</body>
+</html>

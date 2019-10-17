@@ -1,0 +1,102 @@
+.logo{
+    height: 98px;
+    background: #ed008c;
+    .brand{
+        width:600px;
+        height: 98px;
+        
+      ;
+
+        h1{
+            height: 98px;
+            line-height: 98px;
+       
+        img{
+            width: 170px;
+            height: 45px;
+            padding: 20px 0;
+            }
+        }
+    }
+    .solgan{
+        width: 390px;
+        height: 44px;
+       
+        margin: 20px 0 0 20px ;
+        .desc{
+            color:#fff;
+            font-size: 16px;
+        }
+        .highlight{
+            width:390px;
+            height: 18px;
+            margin: 10px 0 0 0;
+            
+            li{
+                width:92px;
+                height: 18px;
+               
+                .light{
+                color: #fff;
+                }
+            }
+        }
+    }
+    .search-side{
+        width: 600px;
+        height: 76px;
+        margin-top:-76px; 
+        .search{
+            width:436px;
+            height: 36px;
+            border: 2px solid #ed008c;
+            border-radius: 25px; 
+            overflow: hidden;
+            input{
+                border: 0;
+                width: 331px;
+                height: 36px;
+                padding:0px 8px;
+                font-size: 14px;
+               
+            }
+            .btn-search{
+                width: 96px;
+                height: 36px;
+                background: #ed008c;
+                margin-top:-36px; 
+              
+
+            }
+        }
+        .cart-side{
+            width: 110px;
+            height: 40px;
+          
+            margin-left: 50px;
+            margin-top: -41px;
+            border: 2px solid #ed008c;
+            border-radius: 25px;
+
+            p{
+                text-align: center;
+                line-height: 40px;
+                font-size: 14px;
+                color: #ed008c;
+            }
+
+            
+        }
+    }
+    .hot{
+        width:436px;
+        height: 14px;
+       
+        li {
+           padding:  2px 8px;
+         
+       }
+        
+    }
+   
+}

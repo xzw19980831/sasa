@@ -1,0 +1,261 @@
+
+.layout{
+    user-select: none;
+    height:851px;
+    .main{
+        height: 552px;
+       
+       .con{
+           height: 552px;
+        padding: 26px 0;
+        .title{
+            height: 22px;
+         
+            color: #333;
+            font-size: 20px;
+            margin: 38px 0 24px;
+            text-align: center;
+        }
+        .common{
+            width: 330px;
+            height: 195px;
+           
+            margin: 0 454px;
+            padding: 17px 0 8px;
+            .box{
+                width: 330px;
+                height: 130px;
+                .toLogin{
+                    width: 93px;
+                    height: 32px;
+                    display: block;
+                    color: #666;
+                    margin-top: 20px;
+                    font-size: 16px;
+                    .colorPink{
+                        color: #ed008c;
+                    }
+                }
+                // .btn{
+                //     height: 47px;
+                //     margin: 25px 0 10px;
+                //     .captcha{
+                //         height: 47px;
+                //     }
+                // }
+                .submitbtn{
+                    cursor: pointer;
+                    height: 50px;
+                    font-size: 16px;
+                    margin: 20px 0 10px 0;
+                    border-radius: 25px;
+                    color: #fff;
+                    line-height: 50px;
+                    text-align: center;
+                    background-image: linear-gradient(90deg,#f67fc6,#ff9ebb);
+                    
+                    .sumbit{
+                        height: 50px;
+                       color: #fff;
+                        width: 100%;
+                       
+                        line-height: 50px;
+                        
+                        
+                        text-align: center;
+                    }
+                }
+                .radiobox{
+                    
+                    height: 43px;
+                    margin: 100px 0 0 20px;
+                    .radiowrap1{
+                        width: 346px;
+                        height: 18px;
+                        color: #666;
+                        margin: 6px 0 0;
+                        top:30px;
+                        position: relative;
+                       
+                        a{
+                            color: #ed008c;
+                        }
+                        .radio{
+                            display: inline-block;
+                            width: 10px;
+                            height: 10px;
+                            position: relative;
+                            left: -3px;
+                            top: 3px;
+                            border: 2px solid #ccc;
+                            border-radius: 50%;
+                        }
+                        .checked{
+                            display: inline-block;
+                            width: 12px;
+                            height: 12px;
+                            position: relative;
+                            left: -3px;
+                            top: 3px;
+                            border: 2px solid #ccc;
+                            border-radius: 50%;
+                            background: url(../images/register.png) no-repeat;
+                            background-size: 100%;
+                            border: none;
+                            transform: scale(1.2);
+                            margin: 1px 1px;
+                        }
+                    }
+                    .radiowrap{
+                        width: 346px;
+                        height: 18px;
+                        color: #666;
+                        margin: 6px 0 0;
+                      
+                        position: absolute;
+                       
+                        a{
+                            color: #ed008c;
+                        }
+                        .radio{
+                            display: inline-block;
+                            width: 10px;
+                            height: 10px;
+                            position: relative;
+                            left: -3px;
+                            top: 3px;
+                            border: 2px solid #ccc;
+                            border-radius: 50%;
+                        }
+                        .checked{
+                            display: inline-block;
+                            width: 12px;
+                            height: 12px;
+                            position: relative;
+                            left: -3px;
+                            top: 3px;
+                            border: 2px solid #ccc;
+                            border-radius: 50%;
+                            background: url(../images/register.png) no-repeat;
+                            background-size: 100%;
+                            border: none;
+                            transform: scale(1.2);
+                            margin: 1px 1px;
+                        }
+                    }
+                }
+                .form{
+                    height: 43px;
+                    .pwd1{
+                        .error-tel {
+                           /* display: none; */
+                           position: relative;
+                           display: block;
+                           width: 200px;
+                           height: 16px;
+                           color:#ed008c;
+                           font-size: 14px;
+                           top: 5px;
+                           img{
+                               margin-top: 2px;
+                               margin-right: 5px;
+                               display: block;
+                           }
+                       }  
+                       .hidden {
+                           display: none;
+                       }
+                   }
+                   .pwd2{
+                       .error-password {
+                          /* display: none; */
+                          display: block;
+                          width: 200px;
+                          height: 16px;
+                          font-size: 14px;
+                          color: #ed008c;
+                          margin-top: 5px;
+                          img{
+                           margin-top: 2px;
+                           margin-right: 5px;
+                           display: block;
+                       }
+                      }  
+                      .hidden {
+                          display: none;
+                      }
+                  }
+                 
+                  
+                    .pwd{
+                        margin: 0 0 40px 0;
+                        height: 43px;
+                        border-bottom: 1px solid #ccc;
+                        .icon{
+                            position: relative;
+                            left:300px;
+                            top:-25px;
+                            width: 14px;
+                         opacity: 0;
+                            height: 17px;
+                            display: block;
+                            background: url(../images/clear.png) no-repeat;
+                            background-size: 100%;
+                        }
+                        .mobile{
+                            height: 43px;
+                              padding: 10px 0;
+                              width: 100%;outline: none;
+                              box-sizing: border-box;
+                              font-size: 16px;
+                              border: none;
+                             
+                        }
+                    }
+                }
+            }
+        }
+       }
+    }
+    .logo{
+        height: 98px;
+        background: white;
+        .brand{
+            width:600px;
+            height: 98px;
+            h1{
+                height: 98px;
+                line-height: 98px;
+            img{
+                width: 170px;
+                height: 45px;
+                padding: 20px 0;
+                }
+            }
+        }
+        .solgan{
+            width: 390px;
+            height: 44px;
+           
+            margin: 20px 0 0 20px ;
+            .desc{
+                color:#ed008c;
+                font-size: 16px;
+            }
+            .highlight{
+                width:390px;
+                height: 18px;
+                margin: 10px 0 0 0;
+                
+                li{
+                    width:92px;
+                    height: 18px;
+                   
+                    .light{
+                    color: black;
+                    }
+                }
+            }
+        }
+}
+}

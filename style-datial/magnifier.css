@@ -1,0 +1,45 @@
+.magnifier {
+  position: absolute;
+  left: 150px;
+  top: 200px;
+}
+
+.magnifier .left {
+  cursor: move;
+  float: left;
+  width: 400px;
+  height: 400px;
+  position: relative;
+  border: 1px solid #ccc;
+}
+
+.magnifier .left .float {
+  display: none;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  background: black;
+  opacity: 0.4;
+  left: 0;
+  top: 0;
+}
+
+.magnifier .left .mask {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.magnifier .right {
+  display: none;
+  float: left;
+  width: 400px;
+  height: 400px;
+  margin-left: 30px;
+  background-size: calc(400px * 3) calc(400px * 3);
+  background-image: url(../images/big.jpg);
+}
+/*# sourceMappingURL=magnifier.css.map */

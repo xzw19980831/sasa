@@ -1,0 +1,171 @@
+.part1{
+    position: relative;
+    top: -380px;
+    height: 434px;
+   
+
+    .pad{
+        width: 1200px;
+        height: 400px;
+    }
+     
+        ul{
+            width: 548px;
+            height: 215px;
+         
+          
+            li{
+                width: 129px;
+                height: 198px;
+                border-bottom: 1px dashed #ccc;
+                margin-left: 85px;
+                padding-right: 20px;
+             
+                a{
+                    color:#000;
+                    display: block;
+                    .right{
+                        width: 72px;
+                        height: 24px;
+                        background: #ed008c;
+                        font-size: 13px;
+                        color: #fff;
+                        text-align: center;
+                        border-radius: 16px;
+                        line-height: 24px;
+                    }
+                    .img{
+                        width:228px;
+                        height: 228px;  
+                         border: 1px solid #ccc;
+                    }
+
+                    .progress{
+                        width:226px;
+                        height:28px;
+                        border: 1px solid #ccc;
+                        border-bottom:0;
+                        border-top: 0; 
+                        .name{
+                            width: 55px;
+                            height: 28px;
+                            margin-left: 10px;
+                            margin-top: 5px;
+                            color: #ed008c;
+                        }
+                        .left{
+                            width: 137px;
+                            height:9px;
+                            background: #eee;
+                            border-radius: 10px;
+                            margin-top: 10px;
+                            margin-left: 10px;
+                            .s{
+                                border-radius: 10px ;
+                                display: block;
+                                width: 44%;
+                                height: 8px;
+                                background: #ed008c;
+                            }
+                        }
+                        
+                    }
+                   .desc{
+                       width: 226px;
+                       height: 14px;
+                       border: 1px solid #ccc;
+                       border-bottom:0;
+                       border-top: 0; 
+                      
+                       text-align: center
+                   }
+                
+                }
+                
+                .price{
+                    width:226px;
+                    height: 34px; 
+                    margin-top: -10px;
+                    text-align: left;
+                    font-size: 24px;
+                    color: #ed008c;
+                    
+                    border:1px solid #ccc;
+                    border-top: 0; 
+                    
+                    
+                    .line{
+                        color: #aaa;
+                        font-size: 12px;
+                        text-decoration: line-through;
+                    }
+                
+
+            }
+        }
+    }
+
+    .title{
+        height: 90px;
+       
+        line-height: 90px;
+
+        .more{
+            float: right;
+            margin-top: -60px;
+        }
+
+        .time-item{
+           padding: 30px 120px;
+
+        }
+        .time-item span {
+            background: #000;
+            color: #fff;
+            line-height: 29px;
+            text-align: center;
+            font-size: 16px;
+            font-family: Arial;
+            display: block;
+            width:30px;
+            height: 30px;
+            border-radius: 50%;
+            float: left;
+            margin-left: -10px;
+         
+          
+        }
+        .time-item span.no{
+            border: 0;
+            background: 0;
+            color: #000;
+           
+        }
+        #day_show {
+            float: left;
+            line-height: 49px;
+            color: #c71c60;
+            font-size: 32px;
+            margin: 0 10px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .item-title .unit {
+            background: none;
+            line-height: 49px;
+            font-size: 24px;
+            padding: 0 10px;
+            float: left;
+        }
+       
+        h2{
+            font-weight: 100;
+            width: 72px;
+            height: 20px;
+            font-size: 14px;
+            float: left;
+            margin-left: -20px;
+                }
+    }
+    
+}
